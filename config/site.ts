@@ -1,12 +1,12 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "前端导航",
-  description: "基于 Next.js 的前端导航网站",
+  name: "文件位置",
+  description: "放置一些玩具的位置信息，以防自己忘记",
   mainNav: [],
   links: {
-    twitter: "https://twitter.com/liwenka1",
-    github: "https://github.com/liwenka1/next-web-nav",
+    //twitter: "https://x.com/brlsrf1",
+    github: "https://github.com/tszlznl/next-web-nav",
   },
 }
 
@@ -15,7 +15,7 @@ export interface NavLink {
   icon?: string
   /** 站点名称 */
   title: string
-  /** 站点名称 */
+  /** 站点信息 */
   desc?: string
   /** 站点链接 */
   link: string
@@ -27,6 +27,181 @@ type NavData = {
 }
 
 export const NavData: NavData[] = [
+
+    {
+        title: "一五四零零零",
+        items: [
+          {
+            icon: "https://img.tsmv.top/eDp39n6n5WjIEwfj.png",
+            title: "迟迟",
+            desc: "Alist 一个支持多种存储的文件列表程序",
+            link: "https://alist.154000.xyz",
+          },
+          {
+            icon: "https://gts.154000.xyz/assets/logo.webp",
+            title: "GoToSocial",
+            desc: "ActivityPub",
+            link: "https://gts.154000.xyz",
+          },
+          {
+            icon: "https://tool.lu/favicon.ico",
+            title: "在线工具",
+            desc: "开发人员的工具箱",
+            link: "https://tool.lu",
+          },
+          {
+            icon: "https://processon.com/favicon.ico",
+            title: "ProcessOn",
+            desc: "免费在线流程图思维导图",
+            link: "https://processon.com/",
+          },
+        ],
+      },
+
+    {
+        title: "一九九一零七",
+        items: [
+          {
+            icon: "https://img.tsmv.top/eDp39n6n5WjIEwfj.png",
+            title: "迟迟",
+            desc: "Alist 一个支持多种存储的文件列表程序",
+            link: "https://alist.154000.xyz",
+          },
+          {
+            icon: "https://gts.154000.xyz/assets/logo.webp",
+            title: "GoToSocial",
+            desc: "ActivityPub",
+            link: "https://gts.154000.xyz",
+          },
+          {
+            icon: "https://tool.lu/favicon.ico",
+            title: "在线工具",
+            desc: "开发人员的工具箱",
+            link: "https://tool.lu",
+          },
+          {
+            icon: "https://processon.com/favicon.ico",
+            title: "ProcessOn",
+            desc: "免费在线流程图思维导图",
+            link: "https://processon.com/",
+          },
+        ],
+      },
+
+    {
+        title: "五二一四一七",
+        items: [
+          {
+            icon: "https://img.tsmv.top/eDp39n6n5WjIEwfj.png",
+            title: "迟迟",
+            desc: "Alist 一个支持多种存储的文件列表程序",
+            link: "https://alist.154000.xyz",
+          },
+          {
+            icon: "https://gts.154000.xyz/assets/logo.webp",
+            title: "GoToSocial",
+            desc: "ActivityPub",
+            link: "https://gts.154000.xyz",
+          },
+          {
+            icon: "https://tool.lu/favicon.ico",
+            title: "在线工具",
+            desc: "开发人员的工具箱",
+            link: "https://tool.lu",
+          },
+          {
+            icon: "https://processon.com/favicon.ico",
+            title: "ProcessOn",
+            desc: "免费在线流程图思维导图",
+            link: "https://processon.com/",
+          },
+        ],
+      },
+
+      {
+        title: "四一七零零一",
+        items: [
+          {
+            icon: "https://img.tsmv.top/eDp39n6n5WjIEwfj.png",
+            title: "Pintree",
+            desc: "书签网站，托管在腾讯云国际站 EdgeOne",
+            link: "https://bm.417001.xyz",
+          },
+          {
+            icon: "https://cms.417001.xyz/favicon.ico",
+            title: "苏在不在乎",
+            desc: "CFblog 普拉斯",
+            link: "https://cms.417001.xyz/",
+          },
+          {
+            icon: "https://write.417001.xyz/favicon.svg",
+            title: "临时工人",
+            desc: "托管在 CloudFlare",
+            link: "https://write.417001.xyz/",
+          },
+          {
+            icon: "https://write1.417001.xyz/favicon.svg",
+            title: "临时工人",
+            desc: "托管在 Vercel",
+            link: "https://write1.417001.xyz/",
+          },
+        ],
+      },
+
+      {
+        title: "她是魔女",
+        items: [
+          {
+            icon: "https://img.tsmv.top/eDp39n6n5WjIEwfj.png",
+            title: "魔女",
+            desc: "理想、生活（https://cp.freehostia.com/）",
+            link: "https://blog.tsmv.top",
+          },
+          {
+            icon: "https://1991.tsmv.top/favicon.svg",
+            title: "一九九零的夏天",
+            desc: "托管在 CloudFlare",
+            link: "https://1991.tsmv.top",
+          },
+          {
+            icon: "https://page.tsmv.top/favicon.ico",
+            title: "Pages CMS",
+            desc: "用于静态站点生成器的轻松 CMS",
+            link: "https://page.tsmv.top",
+          },
+          {
+            icon: "https://list.tsmv.top/logo.png",
+            title: "Glist",
+            desc: "基于 Github 的一个简洁的在线文件列表，来自 https://github.com/jianjianai/FList ",
+            link: "https://list.tsmv.top/",
+          },
+          {
+            icon: "https://mini.tsmv.top/favicon.ico",
+            title: "ReactFlux",
+            desc: "Simple RSS reader for Miniflux ",
+            link: "https://mini.tsmv.top/",
+          },
+          {
+            icon: "https://emojicdn.elk.sh/%F0%9F%97%84%EF%B8%8F",
+            title: "R2 Uploader",
+            desc: " Web Interface for Cloudflare R2 ",
+            link: "https://r2.tsmv.top/",
+          },
+          {
+            icon: "https://rin.tsmv.top/favicon.ico",
+            title: "记得喝水",
+            desc: "⚡Dynamic blog based on Cloudflare Pages + Workers + D1 + R2 ",
+            link: "https://rin.tsmv.top/",
+          },
+          {
+            icon: "https://tsmv.top/assets/images/logo.png",
+            title: "她是魔女",
+            desc: "一个静态导航站，感觉不太好用了，遂换新的 ",
+            link: "https://tsmv.top/",
+          },
+        ],
+      },
+
   {
     title: "常用工具",
     items: [
@@ -93,166 +268,6 @@ export const NavData: NavData[] = [
     ],
   },
 
-  {
-    title: "React",
-    items: [
-      {
-        icon: "https://zh-hans.reactjs.org/favicon.ico",
-        title: "React",
-        desc: "用于构建用户界面的 JavaScript 库",
-        link: "https://zh-hans.reactjs.org",
-      },
-      {
-        icon: "https://reactrouter.com/favicon-light.png",
-        title: "React Router",
-        desc: "React 的声明式路由",
-        link: "https://reactrouter.com",
-      },
-      {
-        icon: "https://nextjs.org/static/favicon/safari-pinned-tab.svg",
-        title: "Next.js",
-        desc: "一个用于 Web 的 React 框架",
-        link: "https://nextjs.org",
-      },
-      {
-        icon: "https://img.alicdn.com/tfs/TB1YHEpwUT1gK0jSZFhXXaAtVXa-28-27.svg",
-        title: "UmiJS",
-        desc: "插件化的企业级前端应用框架",
-        link: "https://umijs.org",
-      },
-      {
-        icon: "https://gw.alipayobjects.com/zos/rmsportal/rlpTLlbMzTNYuZGGCVYM.png",
-        title: "Ant Design",
-        desc: "一套企业级 UI 设计语言和 React 组件库",
-        link: "https://ant.design",
-      },
-      {
-        icon: "https://gw.alipayobjects.com/zos/bmw-prod/69a27fcc-ce52-4f27-83f1-c44541e9b65d.svg",
-        title: "Ant Design Mobile",
-        desc: "构建移动 WEB 应用程序的 React 组件库",
-        link: "https://mobile.ant.design",
-      },
-      {
-        icon: "https://docs.pmnd.rs/apple-touch-icon.png",
-        title: "Zustand",
-        desc: "一个小型、快速、可扩展的 React 状态管理解决方案",
-        link: "https://docs.pmnd.rs/zustand/getting-started/introduction",
-      },
-      {
-        icon: "https://valtio.pmnd.rs/favicon.ico",
-        title: "Valtio",
-        desc: "makes proxy-state simple for React and Vanilla",
-        link: "https://valtio.pmnd.rs",
-      },
-      {
-        icon: "https://jotai.org/favicon.svg",
-        title: "Jotai",
-        desc: "primitive and flexible state management for React",
-        link: "https://jotai.org",
-      },
-      {
-        icon: "https://cn.redux.js.org/img/redux.svg",
-        title: "Redux",
-        desc: "JavaScript 应用的状态容器，提供可预测的状态管理",
-        link: "https://cn.redux.js.org",
-      },
-      {
-        icon: "https://recoiljs.org/zh-hans/img/favicon.png",
-        title: "recoil",
-        desc: "Recoil is an experimental state management framework for React.",
-        link: "https://recoiljs.org/zh-hans/",
-      },
-      {
-        icon: "https://zh.mobx.js.org/assets/mobx.png",
-        title: "MobX",
-        desc: "一个小型、快速、可扩展的 React 状态管理解决方案",
-        link: "https://zh.mobx.js.org",
-      },
-      {
-        icon: "https://ahooks.js.org/simple-logo.svg",
-        title: "ahooks",
-        desc: "一套高质量可靠的 React Hooks 库",
-        link: "https://ahooks.js.org/zh-CN",
-      },
-    ],
-  },
-  {
-    title: "Vue",
-    items: [
-      {
-        icon: "https://cn.vuejs.org/logo.svg",
-        title: "Vue 3",
-        desc: "渐进式 JavaScript 框架",
-        link: "https://cn.vuejs.org",
-      },
-      {
-        icon: "https://cn.vuejs.org/logo.svg",
-        title: "Vue 2",
-        desc: "渐进式 JavaScript 框架",
-        link: "https://v2.cn.vuejs.org",
-      },
-      {
-        icon: "https://cn.vuejs.org/logo.svg",
-        title: "Vue Router",
-        desc: "Vue.js 的官方路由\n为 Vue.js 提供富有表现力、可配置的、方便的路由",
-        link: "https://router.vuejs.org/zh",
-      },
-      {
-        icon: "https://pinia.vuejs.org/logo.svg",
-        title: "Pinia",
-        desc: "符合直觉的 Vue.js 状态管理库",
-        link: "https://pinia.vuejs.org/zh",
-      },
-      {
-        icon: "https://nuxt.com/icon.png",
-        title: "Nuxt.js",
-        desc: "一个基于 Vue.js 的通用应用框架",
-        link: "https://nuxt.com",
-      },
-      {
-        icon: "https://vueuse.org/favicon.svg",
-        title: "VueUse",
-        desc: "Vue Composition API 的常用工具集",
-        link: "https://vueuse.org",
-      },
-      {
-        icon: "https://vitest.dev/favicon.ico",
-        title: "Vitest",
-        desc: "一个 Vite 原生单元测试框架。它很快！",
-        link: "https://cn.vitest.dev/",
-      },
-      {
-        icon: "https://element-plus.org/images/element-plus-logo-small.svg",
-        title: "Element Plus",
-        desc: "基于 Vue 3，面向设计师和开发者的组件库",
-        link: "https://element-plus.org",
-      },
-      {
-        icon: "https://www.antdv.com/assets/logo.1ef800a8.svg",
-        title: "Ant Design Vue",
-        desc: "Ant Design 的 Vue 实现，开发和服务于企业级后台产品",
-        link: "https://antdv.com",
-      },
-      {
-        icon: "https://fastly.jsdelivr.net/npm/@vant/assets/logo.png",
-        title: "Vant",
-        desc: "轻量、可定制的移动端 Vue 组件库",
-        link: "https://vant-ui.github.io/vant",
-      },
-      {
-        icon: "https://webapp.didistatic.com/static/webapp/shield/Cube-UI_logo.ico",
-        title: "Cube UI",
-        desc: "基于 Vue.js 实现的精致移动端组件库",
-        link: "https://didi.github.io/cube-ui",
-      },
-      {
-        icon: "https://img14.360buyimg.com/imagetools/jfs/t1/167902/2/8762/791358/603742d7E9b4275e3/e09d8f9a8bf4c0ef.png",
-        title: "NutUI",
-        desc: "京东风格的轻量级移动端组件库",
-        link: "https://nutui.jd.com",
-      },
-    ],
-  },
   {
     title: "JavaScript",
     items: [
@@ -404,77 +419,6 @@ export const NavData: NavData[] = [
         desc: "创建调色板",
         icon: "/icons/coolors.png",
         link: "https://coolors.co/",
-      },
-    ],
-  },
-  {
-    title: "Node",
-    items: [
-      {
-        icon: "https://deno.com/logo.svg",
-        title: "deno",
-        desc: "Deno is the open-source JavaScript runtime for the modern web.",
-        link: "https://deno.com/",
-      },
-      {
-        icon: "https://nodejs.org/static/images/favicons/favicon.png",
-        title: "Node.js",
-        desc: "Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境",
-        link: "https://nodejs.org/zh-cn",
-      },
-      {
-        icon: "https://expressjs.com/images/favicon.png",
-        title: "Express",
-        desc: "基于 Node.js 平台，快速、开放、极简的 Web 开发框架",
-        link: "https://expressjs.com",
-      },
-      {
-        icon: "https://nodejs.org/static/images/favicons/favicon.png",
-        title: "Koa",
-        desc: "基于 Node.js 平台的下一代 web 开发框架",
-        link: "https://koajs.com",
-      },
-      {
-        icon: "https://www.eggjs.org/favicon.png",
-        title: "Egg",
-        desc: "为企业级框架和应用而生",
-        link: "https://www.eggjs.org/zh-CN",
-      },
-      {
-        icon: "https://d33wubrfki0l68.cloudfront.net/e937e774cbbe23635999615ad5d7732decad182a/26072/logo-small.ede75a6b.svg",
-        title: "Nest.js 中文文档",
-        desc: "用于构建高效且可伸缩的服务端应用程序的渐进式 Node.js 框架",
-        link: "https://docs.nestjs.cn",
-      },
-      {
-        title: "TypeORM",
-        desc: "TypeORM 是一个 ORM 框架，它可以运行在 NodeJS、Browser、Cordova、PhoneGap、Ionic、React Native、Expo 和 Electron 平台上，可以与 TypeScript 和 JavaScript (ES5,ES6,ES7,ES8)一起使用",
-        icon: "/icons/typeorm.ico",
-        link: "https://typeorm.bootcss.com",
-      },
-      {
-        title: "Axios",
-        desc: "Axios 是一个基于 promise 的网络请求库，可以用于浏览器和 node.js",
-        icon: "/icons/axios.ico",
-        link: "https://axios-http.cn/",
-      },
-      {
-        title: "NPM",
-        desc: "NPM是世界上最大的包管理器",
-        icon: "https://static.npmjs.com/58a19602036db1daee0d7863c94673a4.png",
-        link: "https://www.npmjs.com",
-      },
-      {
-        title: "Yarn",
-        desc: "Yarn 是一个软件包管理器，还可以作为项目管理工具。无论你是小型项目还是大型单体仓库（monorepos），无论是业余爱好者还是企业用户，Yarn 都能满足你的需求",
-        icon: "https://www.yarnpkg.cn/favicon-32x32.png",
-        link: "https://www.yarnpkg.cn",
-      },
-      {
-        title: "Pnpm",
-        desc: "速度快、节省磁盘空间的软件包管理器",
-        icon: "https://www.pnpm.cn/img/favicon.png",
-        link: "https://pnpm.io",
       },
     ],
   },
@@ -661,41 +605,6 @@ export const NavData: NavData[] = [
     ],
   },
   {
-    title: "跨平台",
-    items: [
-      {
-        title: "Electron",
-        desc: "使用 JavaScript，HTML 和 CSS 构建跨平台的桌面应用程序",
-        icon: "/icons/electron.ico",
-        link: "https://www.electronjs.org/",
-      },
-      {
-        title: "Tauri",
-        desc: "Tauri是一个框架，用于为所有主要桌面平台构建小巧、快速的二进制文件",
-        icon: "https://tauri.app/meta/favicon-96x96.png",
-        link: "https://tauri.app/",
-      },
-      {
-        title: "Flutter",
-        desc: "Flutter 是 Google 开源的应用开发框架，仅通过一套代码库，就能构建精美的、原生平台编译的多平台应用",
-        icon: "https://flutter.cn/assets/images/cn/flutter-icon.png",
-        link: "https://flutter.cn/",
-      },
-      {
-        title: "Uni-app",
-        desc: "uni-app 是一个使用 Vue.js 开发所有前端应用的框架，开发者编写一套代码，可发布到iOS、Android、Web（响应式）、以及各种小程序（微信/支付宝/百度/头条/QQ/快手/钉钉/淘宝）、快应用等多个平台",
-        icon: "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-a90b5f95-90ba-4d30-a6a7-cd4d057327db/d23e842c-58fc-4574-998d-17fdc7811cc3.png",
-        link: "https://uniapp.dcloud.io/",
-      },
-      {
-        title: "Taro",
-        desc: "Taro 是一个开放式跨端跨框架解决方案，支持使用 React/Vue/Nerv 等框架来开发 微信 / 京东 / 百度 / 支付宝 / 字节跳动 / QQ / 飞书 小程序 / H5 / RN 等应用",
-        icon: "/icons/taro.png",
-        link: "https://taro.jd.com",
-      },
-    ],
-  },
-  {
     title: "站点生成",
     items: [
       {
@@ -739,41 +648,6 @@ export const NavData: NavData[] = [
         desc: "WordPress是一款能让您建立出色网站、博客或应用程序的开源软件",
         icon: "https://s.w.org/images/wmark.png",
         link: "https://cn.wordpress.org/",
-      },
-    ],
-  },
-  {
-    title: "代码托管",
-    items: [
-      {
-        title: "Github",
-        icon: "/icons/github.ico",
-        desc: "一个面向开源及私有软件项目的托管平台",
-        link: "https://github.com",
-      },
-      {
-        title: "Gitee",
-        desc: "Gitee 是中国领先的基于 Git 的代码托管平台，类似于全球知名的 GitHub",
-        icon: "/icons/gitee.ico",
-        link: "https://gitee.com/",
-      },
-      {
-        title: "Gitlab",
-        desc: "更快地交付安全代码，部署到任何云，并推动业务成果",
-        icon: "https://gitlab.com/uploads/-/system/group/avatar/6543/logo-extra-whitespace.png?width=64",
-        link: "https://gitlab.com/",
-      },
-      {
-        title: "Gitea",
-        desc: "Gitea 是一个开源社区驱动的轻量级代码托管解决方案，后端采用 Go 编写，采用 MIT 许可证.",
-        icon: "https://gitea.io/images/favicon.png",
-        link: "https://gitea.io/",
-      },
-      {
-        title: "Coding",
-        desc: "提供一站式研发管理平台及云原生开发工具，让软件研发如同工业生产般简单高效，助力企业提升研发管理效能",
-        icon: "/icons/coding.png",
-        link: "https://coding.net/",
       },
     ],
   },
