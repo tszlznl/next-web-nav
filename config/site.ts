@@ -231,7 +231,7 @@ export const NavData: NavData[] = [
             link: "https://r2.tsmv.top/",
           },
           {
-            icon: "https://rin.tsmv.top/favicon.ico",
+            icon: "https://img.tsmv.top/2kYUV86_emEH4Usm.png",
             title: "记得喝水",
             desc: "⚡Dynamic blog based on Cloudflare Pages + Workers + D1 + R2 ",
             link: "https://rin.tsmv.top/",
@@ -606,13 +606,13 @@ export const NavData: NavData[] = [
       {
         title: "VitePress",
         desc: "Vue 驱动并使用Vite构建的静态网站生成器",
-        icon: "https://vuepress.vuejs.org/hero.png",
+        icon: "https://vuepress.vuejs.org/images/hero.png",
         link: "https://vitepress.vuejs.org",
       },
       {
         title: "VuePress",
         desc: "Vue 驱动的静态网站生成器",
-        icon: "https://vuepress.vuejs.org/hero.png",
+        icon: "https://vuepress.vuejs.org/images/hero.png",
         link: "https://vuepress.vuejs.org",
       },
       {
