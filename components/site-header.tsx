@@ -28,7 +28,9 @@ export function SiteHeader() {
                 <span className="sr-only">GitHub</span>
               </div>
             </Link>
-            {/* <Link
+            {/* 推特的链接
+            
+            <Link
               href={siteConfig.links.twitter}
               target="_blank"
               rel="noreferrer"
