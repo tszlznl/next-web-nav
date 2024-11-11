@@ -28,6 +28,37 @@ type NavData = {
 
 export const NavData: NavData[] = [
 
+
+  {
+    title: "原来如此",
+    items: [
+      {
+        icon: "https://img.199107.xyz/file/be73b41eae20ed07490fa.png",
+        title: "追随她的旅程",
+        desc: "国际站",
+        link: "https://zstdlc.com",
+      },
+      {
+        icon: "https://gts.154000.xyz/assets/logo.webp",
+        title: "追随她的旅程",
+        desc: "国内站",
+        link: "https://zstdlc.cn",
+      },
+      {
+        icon: "https://sing.154000.xyz/favicon.ico",
+        title: "订阅转换",
+        desc: "Sublink Worker是一款强大的在线订阅链接转换工具,支持V2Ray/Xray、SingBox、Clash等多种客户端，提供自定义规则和高效转换，帮助您轻松管理和优化代理节点。",
+        link: "https://sing.154000.xyz/",
+      },
+      {
+        icon: "https://processon.com/favicon.ico",
+        title: "ProcessOn",
+        desc: "免费在线流程图思维导图",
+        link: "https://processon.com/",
+      },
+    ],
+  },
+
     {
         title: "一五四零零零",
         items: [
@@ -44,10 +75,10 @@ export const NavData: NavData[] = [
             link: "https://gts.154000.xyz",
           },
           {
-            icon: "https://tool.lu/favicon.ico",
-            title: "在线工具",
-            desc: "开发人员的工具箱",
-            link: "https://tool.lu",
+            icon: "https://sing.154000.xyz/favicon.ico",
+            title: "订阅转换",
+            desc: "Sublink Worker是一款强大的在线订阅链接转换工具,支持V2Ray/Xray、SingBox、Clash等多种客户端，提供自定义规则和高效转换，帮助您轻松管理和优化代理节点。",
+            link: "https://sing.154000.xyz/",
           },
           {
             icon: "https://processon.com/favicon.ico",
@@ -62,58 +93,70 @@ export const NavData: NavData[] = [
         title: "一九九一零七",
         items: [
           {
-            icon: "https://img.tsmv.top/eDp39n6n5WjIEwfj.png",
-            title: "迟迟",
-            desc: "Alist 一个支持多种存储的文件列表程序",
-            link: "https://alist.154000.xyz",
+            icon: "https://fastly.jsdelivr.net/gh/s0urcelab/serverless-cloud-notepad@2.0.1/static/favicon.ico",
+            title: "cloud-notepad",
+            desc: "临时的网页笔记本，托管在 CloudFlare",
+            link: "https://note.199107.xyz/",
           },
           {
-            icon: "https://gts.154000.xyz/assets/logo.webp",
-            title: "GoToSocial",
-            desc: "ActivityPub",
-            link: "https://gts.154000.xyz",
+            icon: "",
+            title: "追番记录",
+            desc: "追番记录，数据来源于 bangumi ",
+            link: "https://tv.199107.xyz",
           },
           {
-            icon: "https://tool.lu/favicon.ico",
-            title: "在线工具",
-            desc: "开发人员的工具箱",
-            link: "https://tool.lu",
+            icon: "https://web.199107.xyz/favicon.ico",
+            title: "摘星望月",
+            desc: "📍基于UptimeRobot的站点监测网页",
+            link: "https://web.199107.xyz/",
           },
           {
-            icon: "https://processon.com/favicon.ico",
-            title: "ProcessOn",
-            desc: "免费在线流程图思维导图",
-            link: "https://processon.com/",
+            icon: "",
+            title: "伤心欲绝",
+            desc: "静态导航，很快，但是丑了点",
+            link: "https://sxyj.199107.xyz/",
+          },
+          {
+            icon: "",
+            title: "宝珠",
+            desc: "基于 Hugo 的静态网站，使用 Stack 主题，托管在 CloudFlare",
+            link: "https://baozhu.199107.xyz/",
+          },
+          {
+            icon: "",
+            title: "语音合成",
+            desc: "语音合成，juyingTTS",
+            link: "https://tts.199107.xyz/",
           },
         ],
       },
 
     {
-        title: "五二一四一七",
+        title: "四一七五二一",
         items: [
           {
-            icon: "https://img.tsmv.top/eDp39n6n5WjIEwfj.png",
-            title: "迟迟",
-            desc: "Alist 一个支持多种存储的文件列表程序",
-            link: "https://alist.154000.xyz",
+            icon: "https://sou.417521.xyz/favicon.ico",
+            title: "Luxirty Search",
+            desc: "一个搜索引擎，基于 Google，屏蔽内容农场，无广告，无跟踪，干净，简洁，快。",
+            link: "https://sou.417521.xyz",
           },
           {
-            icon: "https://gts.154000.xyz/assets/logo.webp",
-            title: "GoToSocial",
-            desc: "ActivityPub",
-            link: "https://gts.154000.xyz",
+            icon: "https://blog.417521.xyz/wp-content/uploads/2022/10/cropped-kdy-32x32.png",
+            title: "苏在不在乎--临时测试",
+            desc: "托管在轻云互联，每年1元。",
+            link: "https://blog.417521.xyz",
           },
           {
-            icon: "https://tool.lu/favicon.ico",
-            title: "在线工具",
-            desc: "开发人员的工具箱",
-            link: "https://tool.lu",
+            icon: "https://i.loli.net/2019/04/23/5cbeb7e41414c.png",
+            title: "RSSHub",
+            desc: "RSSHub--神器",
+            link: "https://rss.417521.xyz",
           },
           {
             icon: "https://processon.com/favicon.ico",
-            title: "ProcessOn",
-            desc: "免费在线流程图思维导图",
-            link: "https://processon.com/",
+            title: "苏在不在乎",
+            desc: "基于 Hugo 的静态网站，忘了托管在哪里了，主题是 Github 的主页样式",
+            link: "https://sb.417521.xyz/",
           },
         ],
       },
@@ -419,53 +462,6 @@ export const NavData: NavData[] = [
         desc: "创建调色板",
         icon: "/icons/coolors.png",
         link: "https://coolors.co/",
-      },
-    ],
-  },
-  {
-    title: "构建工具",
-    items: [
-      {
-        icon: "https://www.webpackjs.com/icon_180x180.png",
-        title: "Webpack 中文网",
-        desc: "一个用于现代 JavaScript 应用程序的静态模块打包工具",
-        link: "https://www.webpackjs.com",
-      },
-      {
-        icon: "https://cn.vitejs.dev/logo.svg",
-        title: "Vite 中文文档",
-        desc: "下一代前端工具链",
-        link: "https://cn.vitejs.dev",
-      },
-      {
-        icon: "https://www.rollupjs.com/img/favicon.png",
-        title: "Rollup",
-        desc: "Rollup 是一个 JavaScript 模块打包器",
-        link: "https://www.rollupjs.com",
-      },
-      {
-        icon: "https://turbo.build/images/favicon-dark/apple-touch-icon.png",
-        title: "Turbo",
-        desc: "Turbo is an incremental bundler and build system optimized for JavaScript and TypeScript, written in Rust",
-        link: "https://turbo.build",
-      },
-      {
-        icon: "https://www.babeljs.cn/img/favicon.png",
-        title: "Babel",
-        desc: "Babel 是一个 JavaScript 编译器",
-        link: "https://www.babeljs.cn",
-      },
-      {
-        icon: "https://esbuild.github.io/favicon.svg",
-        title: "esbuild",
-        desc: "An extremely fast bundler for the web",
-        link: "https://esbuild.github.io",
-      },
-      {
-        icon: "https://swc.rs/favicon/apple-touch-icon.png",
-        title: "SWC",
-        desc: "Rust-based platform for the Web",
-        link: "https://swc.rs",
       },
     ],
   },
