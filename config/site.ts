@@ -356,19 +356,19 @@ export const NavData: NavData[] = [
     title: "CSS",
     items: [
       {
-        icon: "https://postcss.org/assets/logo-3e39b0aa.svg",
+        icon: "https://postcss.org/docs/assets/logo-C2ryQugb.svg",
         title: "PostCSS",
         desc: "一个用 JavaScript 转换 CSS 的工具",
         link: "https://postcss.org",
       },
       {
-        icon: "https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg",
+        icon: "https://sass-lang.com/assets/img/logos/logo.svg",
         title: "Sass",
         desc: "一个成熟，稳定，功能强大的专业级 CSS 扩展语言",
         link: "https://sass-lang.com",
       },
       {
-        icon: "https://www.tailwindcss.cn/apple-touch-icon.png",
+        icon: "https://www.tailwindcss.cn/favicons/favicon.ico",
         title: "TailwindCSS 中文网",
         desc: "一个功能类优先的 CSS 框架",
         link: "https://www.tailwindcss.cn",
@@ -388,8 +388,8 @@ export const NavData: NavData[] = [
       {
         title: "UnoCSS",
         desc: "即时按需原子 CSS 引擎",
-        icon: "https://uno.antfu.me//favicon.svg",
-        link: "https://uno.antfu.me/",
+        icon: "https://unocss.dev/favicon.svg",
+        link: "https://unocss.dev",
       },
       {
         title: "Bootstrap",
@@ -448,7 +448,7 @@ export const NavData: NavData[] = [
       {
         title: "HYPE4",
         desc: "透明玻璃态生成器",
-        icon: "https://hype4.academy/_next/static/media/logorwd@2x.b40bc92c.png",
+        icon: "https://hype4.academy/_next/static/media/logo.b6977cf7.svg",
         link: "https://hype4.academy/tools/glassmorphism-generator",
       },
       {
@@ -481,13 +481,13 @@ export const NavData: NavData[] = [
     title: "前端文档",
     items: [
       {
-        icon: "https://developer.mozilla.org/apple-touch-icon.6803c6f0.png",
+        icon: "https://developer.mozilla.org/favicon-192x192.png",
         title: "MDN | Web 开发者指南",
         desc: "Mozilla 的开发者平台，提供了大量关于 HTML、CSS 和 JavaScript 的详细文档以及广泛的 Web API 参考资料",
         link: "https://developer.mozilla.org/zh-CN",
       },
       {
-        icon: "https://static.runoob.com/images/favicon.ico",
+        icon: "https://static.jyshare.com/images/favicon.ico",
         title: "菜鸟教程",
         desc: "学的不仅是技术，更是梦想！",
         link: "https://www.runoob.com",
@@ -539,12 +539,6 @@ export const NavData: NavData[] = [
         icon: "https://cms.pixso.cn/images/logo.svg",
         link: "https://pixso.cn/",
       },
-      {
-        title: "AIDesign",
-        desc: "10秒创建您的LOGO！",
-        icon: "https://ailogo.qq.com//favicon.ico?v=1.1",
-        link: "https://ailogo.qq.com/",
-      },
     ],
   },
   {
@@ -595,7 +589,7 @@ export const NavData: NavData[] = [
       {
         title: "渐变色网站",
         desc: "数百万个自动生成的渐变的网站",
-        icon: "https://gradihunt.com/favicon.ico",
+        icon: "https://gradihunt.com/icon-192.png",
         link: "https://gradihunt.com/",
       },
       {
