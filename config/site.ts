@@ -188,6 +188,18 @@ export const NavData: NavData[] = [
             desc: "托管在 Vercel",
             link: "https://write1.417001.xyz/",
           },
+          {
+            icon: "https://lobe.417001.xyz/favicon.ico",
+            title: "Lobe Chat",
+            desc: "托管在 Vercel 的 AI 对话网站",
+            link: "https://lobe.417001.xyz/",
+          },
+          {
+            icon: "https://umi.417001.xyz/favicon.ico",
+            title: "umami",
+            desc: "托管在 Vercel 的网站访问统计",
+            link: "https://umi.417001.xyz/",
+          },
         ],
       },
 
