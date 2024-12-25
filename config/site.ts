@@ -265,7 +265,7 @@ export const NavData: NavData[] = [
             icon: "https://fastly.jsdelivr.net/gh/s0urcelab/serverless-cloud-notepad@2.0.1/static/favicon.ico",
             title: "mini-notepad",
             desc: "临时的网页笔记本，收集 TG 转发的一些内容",
-            link: "https://note.why12.tk/",
+            link: "https://note.why212.tk/",
           },
         ],
       },    
