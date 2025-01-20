@@ -165,6 +165,12 @@ export const NavData: NavData[] = [
         title: "四一七零零一",
         items: [
           {
+            icon: "https://mini.417001.xyz/favicon.ico",
+            title: "ReactFlux",
+            desc: "Simple RSS reader for Miniflux ",
+            link: "https://mini.417001.xyz",
+          },
+          {
             icon: "https://img.tsmv.top/eDp39n6n5WjIEwfj.png",
             title: "Pintree",
             desc: "书签网站，托管在腾讯云国际站 EdgeOne",
@@ -229,12 +235,6 @@ export const NavData: NavData[] = [
             title: "Glist",
             desc: "基于 Github 的一个简洁的在线文件列表，来自 https://github.com/jianjianai/FList ",
             link: "https://list.tsmv.top/",
-          },
-          {
-            icon: "https://mini.tsmv.top/favicon.ico",
-            title: "ReactFlux",
-            desc: "Simple RSS reader for Miniflux ",
-            link: "https://mini.tsmv.top/",
           },
           {
             icon: "https://emojicdn.elk.sh/%F0%9F%97%84%EF%B8%8F",
